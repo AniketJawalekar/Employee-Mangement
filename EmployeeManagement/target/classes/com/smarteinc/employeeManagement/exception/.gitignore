@@ -1,0 +1,4 @@
+/ApplicationException.class
+/DatabaseException.class
+/EntityNotFoundException.class
+/InvalidDateFormatException.class

@@ -1,0 +1,9 @@
+# Steps to run the application
+1. Import project in IDE (Note: application is developed using Eclipse Neon)
+2. Run the application as Java Application choose AppInitializer as main class 
+	     (Note: If fails to find main class then clean the project and re-run the application, application store dummy data into the database on startup)
+     
+# Steps to unit test the requirements
+1. Run the application as JUnit Test. It will run the unit test against the developed requirements 
+		 (Note: Select JUnit 4 as run configuration, test methods first stores the dummy data and then executes the tests)
+2. Input values can be modified to test the different scenarios

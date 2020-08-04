@@ -1,0 +1,9 @@
+com.smarteinc.employeeManagement
+com.smarteinc.employeeManagement.dbUtilities
+com.smarteinc.employeeManagement.domain
+com.smarteinc.employeeManagement.exception
+com.smarteinc.employeeManagement.factory
+com.smarteinc.employeeManagement.model
+com.smarteinc.employeeManagement.nonDb
+com.smarteinc.employeeManagement.repository
+com.smarteinc.employeeManagement.service
