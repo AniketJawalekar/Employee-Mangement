@@ -22,7 +22,7 @@ public class Status {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int statusId;
 	
-	@Column(name="description")
+	@Column(name="description",unique=true)
 	private String description;
 	
 	public int getStatusId() {

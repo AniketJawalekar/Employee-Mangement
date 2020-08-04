@@ -21,7 +21,7 @@ public class Region {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int regionId;
 	
-	@Column(name="name")
+	@Column(name="name",unique=true)
 	private String name;
 	
 	public int getRegionId() {

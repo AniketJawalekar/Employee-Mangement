@@ -24,7 +24,7 @@ public class Department {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int departmentId;
 	
-	@Column(name="departmentName")
+	@Column(name="departmentName",unique=true)
 	private String departmentName;
 	
 	@ManyToOne(targetEntity=Region.class)

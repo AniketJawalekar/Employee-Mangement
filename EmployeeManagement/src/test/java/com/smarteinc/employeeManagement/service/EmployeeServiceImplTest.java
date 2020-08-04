@@ -15,7 +15,7 @@ public class EmployeeServiceImplTest {
 		AppInitializer.initializeApp();//load dummy data and initialize the session factory
 		boolean expectedResult=true;
 		EmployeeService service=EmployeeServiceFactory.getEmployeeService();
-		EmployeeDTO employeeDTO=new EmployeeDTO("Robert@smarteinc.com",48,105000,"12-10-2016",2,
+		EmployeeDTO employeeDTO=new EmployeeDTO("Ian@smarteinc.com",48,105000,"12-10-2016",2,
 				"Mumbai",400008,"Maharashtra","India",2);
 		boolean actualResult=service.registerEmployee(employeeDTO);
 		AppInitializer.closeApp();//close the session factory
